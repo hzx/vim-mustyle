@@ -1,0 +1,3 @@
+
+vim filetype mustyle, syntax highlight.
+copy folder to bundle (pathogen) directory.
