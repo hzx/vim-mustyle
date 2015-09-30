@@ -18,10 +18,10 @@ syn match musError "]\|}\|)"
 " keyword definitions
 syn keyword musInclude    import
 syn keyword musPx         px
-syn keyword musConstant   none block inline block-inline default pointer repeat no-repeat left top center right bottom absolute relative fixed auto hidden 
+syn keyword musConstant   none block inline block-inline default pointer repeat no-repeat left top center right bottom absolute relative fixed auto hidden uppercase lowercase capitalize bold normal
 syn keyword musNumber     NPOS
 syn keyword musStates     hover state
-syn keyword musProps      width height top right bottom left cursor color backgroundColor backgroundPosition background padding paddingTop paddingRight paddingBottom paddingLeft margin marginTop marginRight marginBottom marginLeft position float cssFloat border borderTop borderRight borderBottom borderLeft overflow float cssFloat userSelect webkitUserSelect MozUserSelect msUserSelect
+syn keyword musProps      width height top right bottom left cursor color backgroundColor backgroundPosition background padding paddingTop paddingRight paddingBottom paddingLeft margin marginTop marginRight marginBottom marginLeft position float cssFloat border borderTop borderRight borderBottom borderLeft overflow float cssFloat userSelect webkitUserSelect MozUserSelect msUserSelect font fontSize fontFamily fontWeight textTransform
 
 " Comments
 syn keyword musTodo       contained TODO FIXME XXX
